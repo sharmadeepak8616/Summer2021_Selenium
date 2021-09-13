@@ -8,7 +8,6 @@ public class Trial {
 
         // path of the driver (chrome)
         System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");      // Mac
-
         // System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");   // Windows
 
         WebDriver driver = new ChromeDriver();
