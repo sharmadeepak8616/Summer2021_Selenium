@@ -7,7 +7,7 @@ public class Homework_1 {
      *
      * Create Repo in github
      * Invite Ahsan or I as collaborator
-     * Close repo in local
+     * Clone repo in local
      * Create homework1 branch
      * Create Maven project
      * Add selenium and testNg dependencies
@@ -21,9 +21,10 @@ public class Homework_1 {
     /**
      * Homework 2
      *
-     * Create a sample merge request and assign Ahsan or I.
+     * Create a sample merge request and assign Ahsan or I for review.
      *
-     *
+     *  ChroPath plugin
+     *  https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo?hl=fr---------------------------------------------------Twitter
      */
 
 
