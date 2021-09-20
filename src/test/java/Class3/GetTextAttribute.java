@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GetTextAttribute {
@@ -31,10 +32,15 @@ public class GetTextAttribute {
          * method: getText()
          * Return Type: String
          */
-
         String loginButtonText = loginButton.getText();
 
         System.out.println("Login button text --> " + loginButtonText);
+
+        // verify the text on Login button
+        String expLoginButtonText = "Log In";
+
+        Assert.assertEquals(loginButtonText, expLoginButtonText, "Login button text is not as expected");
+
 
         /**
          * To get the value of any attribute of a webElement
