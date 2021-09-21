@@ -41,6 +41,7 @@ public class Locators {
      *         In chropath, check if tagName is unique --> //tagName
      *         By locatorUsingTagName = By.tagName("tagNameValue")
      *
+     * ....continue in Class4/Locator_2.java
      *
      */
 
