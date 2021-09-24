@@ -60,18 +60,6 @@ public class Dropdowns {
         year.selectByIndex(10);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 
